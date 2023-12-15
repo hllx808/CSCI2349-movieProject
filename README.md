@@ -11,8 +11,7 @@
 - unigrams-wordclouds.ipynb | uses the function from data.ipynb to get new dataset. Generates visualizations for wordclouds, unigrams, word embeddings, and contains data about number of genres and other metadata.
 - allGenres.txt is a .txt of all the genres from the raw dataset.
 - extensiveStopList.txt is a list of external stopwords used for removing some extra common words when generating visualizations.
-
-
+-----------------------------------------------------------------------------------------------------------------------
 - Clone repository 
   ```js
   git clone https://github.com/hllx808/CSCI2349-movieProject.git
