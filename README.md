@@ -6,7 +6,9 @@
 ## How to use
 - The raw_data directory contains the raw data which is the csv for the Kaggle dataset that contains movie plots for ~35,000 movies
 - The src directory contains 3 separate files:
-- data.ipynb | extracts the Kaggle datasets and filters it so that we focus on only 10 genres and <= 250 movies per genre. Contains other information such as type:token ratios
+- data.ipynb | extracts the Kaggle datasets and filters it so that we focus on only 10 genres and <= 250 movies per genre. Contains other information such as type:token ratios,
+- bigrams-collocations.ipynb | uses the function from data.ipynb to get new dataset. Generates bigrams and collocations for 10 different genres.
+- unigrams-wordclouds.ipynb | uses the function from data.ipynb to get new dataset. Generates visualizations for wordclouds, unigrams, word embeddings, and contains data about 
   
 ## Kaggle Dataset Info:
 - csv contents: Release Year | Title | Origin/Ethnicity | Director | Cast | Genre | Wiki Page | Plot
