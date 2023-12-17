@@ -3,6 +3,10 @@
 ## Group 8
 - We analyzed a variety of movie summaries to see what words appear most frequently and whether or not we can establish any patterns across genres.
 
+## Recommended Libraries:
+- numpy, matplotlib, nltk, gensim, scikit-learn
+    - instructions and code to install in: `unigram-wordclouds` notebook 
+
 ## How to use...
 - The raw_data directory contains the raw data which is the csv for the Kaggle dataset that contains movie plots for ~35,000 movies
 - The src directory contains 3 separate files:
